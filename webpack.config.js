@@ -2,7 +2,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 require('dotenv').config();
 
-const entry = require('./.config/entry');
+const entry = require('./.config/entrypoints');
 const mode = {
     name: process.env.environment,
     isProduction: process.env.environment == 'production'

@@ -4,7 +4,7 @@
   "description": "A javascript hot reloading project",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cross-env node_modules/webpack/bin/webpack.js",
+    "build": "environment=production cross-env node_modules/webpack/bin/webpack.js --progress --hide-modules",
     "watch": "cross-env node_modules/.bin/webpack-dev-server",
     "deploy": ""
   },
