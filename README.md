@@ -4,7 +4,7 @@ This is a project for generating handlebars like views generators, with js and s
 
 
 1. Fakers are functions that returns a json for compilation with handlebars
-2. The handlebars.compiler.js has the configs o hot to generate the final html for viewing purposes
+2. The handlebars.js has the configs o hot to generate the final html for viewing purposes
 
 
 run yarn install
