@@ -49,7 +49,7 @@
     "boostrap": "^2.0.0",
     "css-loader": "^3.2.0",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "style-loader": "^1.0.0"
   }
 }
